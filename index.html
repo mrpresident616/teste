@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ale Representante — catálogo de alimentos, congelados, laticínios, frios, embutidos, açaí e sorvetes para o seu negócio.">
+  <title>Ale Representante | Catálogo de Alimentos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip">FAZEMOS ORÇAMENTOS E PEDIDOS PELO WHATSAPP</div>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ale Representante - início">
+        <img src="assets/ale-representante.jpg" alt="Ale Representante">
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="header-whatsapp" href="https://wa.me/5511994877594?text=Ol%C3%A1%20Ale!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="container intro-grid">
+        <div class="intro-copy">
+          <span class="eyebrow">FORNECIMENTO PARA O SEU NEGÓCIO</span>
+          <h1>Produtos de qualidade com <span>condições de atacado.</span></h1>
+          <p>Consulte nosso catálogo, veja os sabores disponíveis e faça seu pedido diretamente com o Ale pelo WhatsApp.</p>
+          <div class="intro-actions">
+            <a class="btn btn-dark" href="#produtos">Ver catálogo</a>
+            <a class="btn btn-whatsapp" href="https://wa.me/5511994877594?text=Ol%C3%A1%20Ale!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </div>
+        <div class="intro-side">
+          <div><strong>Atacado</strong><span>Preços por unidade, caixa e lote.</span></div>
+          <div><strong>Variedade</strong><span>Congelados, laticínios, frios, açaí e sorvetes.</span></div>
+          <div><strong>Pedido direto</strong><span>Escolha o produto e chame no WhatsApp.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog" id="produtos">
+      <div class="container">
+        <div class="section-heading">
+          <span>CATÁLOGO</span>
+          <h2>Nossos produtos</h2>
+        </div>
+
+        <div class="filter-bar" aria-label="Filtrar produtos">
+          <button class="filter-btn active" type="button" data-filter="all">Todos</button>
+          <button class="filter-btn" type="button" data-filter="congelados">Congelados</button>
+          <button class="filter-btn" type="button" data-filter="laticinios">Laticínios</button>
+          <button class="filter-btn" type="button" data-filter="embutidos">Frios & Embutidos</button>
+          <button class="filter-btn" type="button" data-filter="acai">Açaí & Sorvetes</button>
+        </div>
+
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <span class="section-kicker">CONTATO</span>
+          <h2>Faça seu orçamento com o Ale.</h2>
+          <p>Consulte disponibilidade, preços atualizados, condições por caixa e prazo de entrega pelo WhatsApp.</p>
+          <a class="btn btn-whatsapp contact-button" href="https://wa.me/5511994877594?text=Ol%C3%A1%20Ale!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        </div>
+        <div class="contact-card">
+          <h3>Ale Representante</h3>
+          <p><strong>WhatsApp</strong><br>(11) 99487-7594</p>
+          <p><strong>Representante</strong><br>Alexandre / Ale</p>
+          <p><strong>Atendimento</strong><br>São Paulo e região</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Ale Representante</h3>
+        <p>Fornecimento de alimentos para comércios, lanchonetes, restaurantes e outros negócios.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <a href="https://wa.me/5511994877594" target="_blank" rel="noopener">WhatsApp: (11) 99487-7594</a>
+        <span>São Paulo e região</span>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year"></span> Ale Representante. Todos os direitos reservados.</div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5511994877594?text=Ol%C3%A1%20Ale!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido." target="_blank" rel="noopener" aria-label="Chamar Ale no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.149-.197.297-.767.967-.94 1.164-.173.199-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.693.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.981.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.889-9.884 2.64 0 5.122 1.029 6.988 2.895a9.825 9.825 0 0 1 2.9 6.988c-.002 5.45-4.437 9.884-9.893 9.884m8.413-18.297A11.815 11.815 0 0 0 12.055 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.688 1.448h.005c6.56 0 11.894-5.335 11.897-11.893a11.821 11.821 0 0 0-3.488-8.413Z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
